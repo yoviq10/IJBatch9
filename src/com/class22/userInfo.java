@@ -13,7 +13,7 @@ public class userInfo extends UserClassTask{
 
 
     void userDetail(){
-        System.out.println(" name "+name+" mobile number "+mobileNumber+" address "+userAddress);
+        System.out.println(" name "+super.name+" mobile number "+mobileNumber+" address "+userAddress);
     }
 
 

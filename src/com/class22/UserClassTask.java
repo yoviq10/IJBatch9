@@ -15,7 +15,8 @@ Create a subclass  userInfo that will have user address variable
     String mobileNumber;
 
     UserClassTask(String name, String mobileNumber){
-
+        this.name=name;
+        this.mobileNumber=mobileNumber;
     }
 
 }
