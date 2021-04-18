@@ -36,6 +36,27 @@ public class HW2 {
         words.removeIf(word -> word.contains("e"));  //prints out ONLY batch
         System.out.println(words);
 
+        //the right way with iterator
+        ArrayList<String> words1=new ArrayList<>();
+        words1.add("10");
+        words1.add("negotiation");
+        words1.add("love");
+        words1.add("nine");
+        words1.add("great");
+        words1.add("like");
+        words1.add("help");
+        Iterator<String>iterator=words1.iterator(); //creating iterator
+        System.out.println(words1);
+        //best practice
+        while(iterator.hasNext()){
+            String word=iterator.next();
+            if(word.endsWith("e")){
+              iterator.remove();
+            }
+        }
+
+        System.out.println(words1);
+
 
 
     }

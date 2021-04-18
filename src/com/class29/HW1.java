@@ -22,15 +22,8 @@ public class HW1 {
 
         System.out.println(names.isEmpty()); //false, it's not empty
         System.out.println(names.contains("Yovanna"));  // will print out true
-        System.out.println(names.size()); //size of array = 6
+        System.out.println(names.size()); //size of array =
     }
-
-
-
-
-
-
-
 
 
 
